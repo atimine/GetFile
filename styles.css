@@ -1,0 +1,49 @@
+.main-div {
+    margin: 100px;
+}
+
+.input-n1,
+.input-n2,
+.input-text {
+    margin: 10px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline-color: lightseagreen;
+    border: 1px solid lightseagreen;
+    color: grey;
+    outline: none;
+}
+
+button {
+    width: 305px;
+    background-color: lightseagreen;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    display: block;
+}
+
+.input-file {
+    display: none
+}
+
+.form-label {
+    margin: 10px;
+    /* border: 1px solid lightseagreen; */
+    /* border-radius: 10px; */
+    /* font-size: 40px; */
+}
+
+.form-p {
+    position: absolute;
+    visibility: hidden;
+}
+
+.form-label:visited~.form-p {
+    visibility: visible;
+}

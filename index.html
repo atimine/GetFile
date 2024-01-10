@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>RESIZE JPG IMAGE</title>
+</head>
+
+<body>
+    <div class="main-div">
+        <form class="div-form" action="aaa.php" method="post" enctype="multipart/form-data">
+            <input oninput="getFile()" id="file" class="input-file" type="file">
+            <label class="form-label" for="file"><img src="folder-open-solid.svg">choose file</label>
+            <input class="input-n1" type="number" placeholder="*Pixel for width">
+            <input class="input-n2" type="number" placeholder="*Pixel for height">
+            <input class="input-text" type="text" placeholder="*New name">
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <script src="getFile.js"></script>
+</body>
